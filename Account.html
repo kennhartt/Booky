@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/4.0/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
+
+	<!-- Bootstrap core CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="./CSS/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./CSS/bootstrap-datepicker.css" >
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="/path/to/jquery.mCustomScrollbar.css" />
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="/path/to/jquery.mCustomScrollbar.concat.min.js"></script>  
+</head>
+
+<!-- HEADER-->
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 navbar-expand-sm">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="./Browsing.html"><span><img src="./Images/circle-cropped.png" style="width: 20px;height: 20px"/></span> &nbsp;Booky</a>
+      <ul class="navbar-nav mr-auto" style="margin-left: 15px">      
+      <li class="nav-item active">
+        <a class="nav-link" href="./Account.html" style="padding-right: 10px">Book a Room</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./Account_Reservations.html" style="padding-right: 10px">See Reservations</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./Account_Password.html" style="padding-right: 10px">Change Password</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="./Index.html">Sign out</a>
+      </li>           
+    </ul>
+    </nav>
+    
+<!-- Body -->
+<div class="container" style="margin-left: 45px">
+	<div class="row">
+		<div class="col-sm-auto">
+			<div class="panel-body border-right">
+            	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-3 ">
+            		<h1 class="h2 font-weight-bold" style="width: 300px;margin-bottom: 0px">Reserve a Room</h1>            
+          		</div>          
+            
+     			 <div class="panel-body " style="width: 300px;height:">
+       			 <div class="row">
+        
+          	 	 <div id="sticky-wrapper" class="sticky-key" style="height: 507px;">
+          		 <div class="amnp-key" style="width: 230px;"><div class="amnp-group-picker">
+           	     <h1 class="h3 " style="margin: auto;padding-bottom: 10px;padding-top: 10px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branch</h1>
+    	 			<select class="form-control" style="margin-bottom: 30px">
+      	 				<option value="335">All Branch</option>
+          	 			<option value="394">Branch - New Westminster</option>
+          	 			<option value="395">Branch - Coquitlam</option>
+          	 		</select></div>
+          	 
+          	<div class="amnp-date-picker">
+          	 
+          	<h3 style="margin-bottom: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choose date</h3>
+          	 
+          	
+			<div id="datepicker" data-date="" style="margin-left: 7px" class="border-top"></div>
+			<input type="hidden" id="my_hidden_input">
+          	 
+     	 	</div></div></div></div></div></div>
+		</div>
+		
+		<div class="col-sm-7">
+			<div class="panel-body">
+				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-3">
+            		<h1 class="h2 font-weight-bold " style="padding-bottom: 20px">Available Rooms: <span>1 August 2019</span></h1>            
+          		</div>
+          <div class="panel-body border" style="width: 800px">
+          	<div>
+            	<h1 class="h3 font-weight-bold" style="padding-bottom: 10px">N1200 (Group Study)</h1>            	            	                    
+            </div>
+            <div style="width: 500px">
+            	 <table style="display: block;height: 75px; width: 750px;overflow-x: auto;">            
+                   <tr>
+                   	<td>
+                   		<button style="width: 75px;">8:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">8:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:00 am</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:00 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">5:00 pm</button>
+                   	</td>
+                   </tr>     
+            </table>
+            </div>
+            </div>
+            <div class="panel-body border" style="width: 800px">
+          	<div>
+            	<h1 class="h3 font-weight-bold" style="padding-bottom: 10px">N6105 (Group Study)</h1>            	            	                    
+            </div>
+            <div style="width: 500px">
+            	 <table style="display: block;height: 75px; width: 750px;overflow-x: auto;">            
+                   <tr>
+                   	<td>
+                   		<button style="width: 75px;">8:00 am</button>      
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">8:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:00 am</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:00 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">5:00 pm</button>
+                   	</td>
+                   </tr>     
+            </table>
+            </div>
+            </div>
+            <div class="panel-body border" style="width: 800px">
+          	<div>
+            	<h1 class="h3 font-weight-bold" style="padding-bottom: 10px">N5110 (Group Study)</h1>            	            	                    
+            </div>
+            <div style="width: 500px">
+            	 <table style="display: block;height: 75px; width: 750px;overflow-x: auto;">            
+                   <tr>
+                   	<td>
+                   		<button style="width: 75px;">8:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">8:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:00 am</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">9:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">10:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:00 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">11:30 am</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:00 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">12:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">1:30 pm</button>            
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">2:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">3:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:00 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">4:30 pm</button>
+                   	</td>
+                   	<td>
+                   		<button style="width: 75px;">5:00 pm</button>
+                   	</td>
+                   </tr>     
+            </table>
+            </div>
+            </div>
+		</div>	
+	</div>
+</div>
+</div>
+	                
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./CSS/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./CSS/popper.min.js.download"></script>
+    <script src="./CSS/bootstrap.min.js.download"></script>
+
+    <!-- Icons -->
+    <script src="./CSS/feather.min.js.download"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="./CSS/Chart.min.js.download"></script>
+    <script src="./CSS/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./CSS/popper.min.js.download"></script>
+    <script src="./CSS/bootstrap.min.js.download"></script>
+
+    <!-- Icons -->
+    <script src="./CSS/feather.min.js.download"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./CSS/bootstrap-datepicker.js"></script>	
+	<script>
+			$('#datepicker').datepicker();
+			$('#datepicker').on('changeDate', function() {
+    		$('#my_hidden_input').val(
+        	$('#datepicker').datepicker('getFormattedDate')
+   			 );
+			});
+	</script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<script>
+    (function($){
+        $(window).on("load",function(){
+            $(".content").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+  
+
+</body></html>

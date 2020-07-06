@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="D:\Database Project\DBProject.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost//]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost//]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="D:\Database Project\Account.html"/>
+  <file name="D:\Database Project\Account_Password.html"/>
+  <file name="D:\Database Project\Account_Reservations.html"/>
+  <file name="D:\Database Project\CSS\dashboard.css"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3">
+  <errfile name="D:\Database Project\Registration_Success.html">
+   <error val="106;8;190;8;2002;1;"/>
+   <error val="8;15;28;15;2502;1;"/>
+  </errfile>
+  <errfile name="D:\Database Project\Registration.html">
+   <error val="106;8;190;8;2002;1;"/>
+   <error val="8;15;28;15;2502;1;"/>
+  </errfile>
+  <errfile name="D:\Database Project\Index.html">
+   <error val="106;8;190;8;2002;1;"/>
+   <error val="8;15;28;15;2502;1;"/>
+  </errfile>
+  <errfile name="D:\Database Project\Account_Reservations.html">
+   <error val="107;14;191;14;2002;1;"/>
+  </errfile>
+  <errfile name="D:\Database Project\Account_Password.html">
+   <error val="107;14;191;14;2002;1;"/>
+  </errfile>
+  <errfile name="D:\Database Project\Account.html">
+   <error val="107;14;191;14;2002;1;"/>
+  </errfile>
+ </errors>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="D:\Database Project\CSS\signin.css" crc="1562713104000"/>
+  <file name="D:\Database Project\CSS\form-validation.css" crc="1562807378000"/>
+  <file name="D:\Database Project\CSS\dashboard.css" crc="1564453558730"/>
+  <file name="D:\Database Project\CSS\bootstrap.min.css" crc="1562889164000"/>
+  <file name="D:\Database Project\CSS\bootstrap-datepicker.js" crc="1564291225402"/>
+  <file name="D:\Database Project\CSS\bootstrap-datepicker.css" crc="1564291190031"/>
+  <file name="D:\Database Project\Registration_Success.html" crc="1564452522030"/>
+  <file name="D:\Database Project\Registration.html" crc="1564452134877"/>
+  <file name="D:\Database Project\Index.html" crc="1564452507036"/>
+  <file name="D:\Database Project\Account_Reservations.html" crc="1564452940083"/>
+  <file name="D:\Database Project\Account_Password.html" crc="1564452743007"/>
+  <file name="D:\Database Project\Account.html" crc="1564453506365"/>
+ </filescache>
+</project>
